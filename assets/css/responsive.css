@@ -1,0 +1,68 @@
+/* Untuk perangkat mobile */
+@media screen and (max-width: 767px) {
+    /* Header */
+    header {
+      padding: 1rem;
+    }
+  
+    /* Logo */
+    .logo h2 {
+      font-size: 1.2rem; /* Ubah ukuran font logo */
+    }
+  
+    /* Menu */
+    .menu {
+      flex-direction: column;
+    }
+  
+    .menu li {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  
+    .menu li a {
+      padding: 0.5rem 1rem; /* Tambahkan padding agar link lebih mudah di-tap */
+    }
+  
+    /* Slider */
+    .content-slider {
+      margin-bottom: 1rem;
+    }
+  
+    /* Content */
+    .content {
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+  
+    /* Aside */
+    aside {
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+  
+    /* Footer */
+    footer {
+      padding: 1rem;
+    }
+  }
+    
+  /* Untuk perangkat tablet */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Menu */
+    .menu li {
+      margin-right: 1rem; /* Kembalikan margin antara item menu */
+      margin-bottom: 0; /* Hapus margin bawah untuk item menu */
+    }
+  
+    /* Content */
+    .content {
+      margin-bottom: 1rem; /* Atur margin bawah konten */
+    }
+  
+    /* Aside */
+    aside {
+      margin-bottom: 1rem; /* Atur margin bawah aside */
+    }
+  }
+  
